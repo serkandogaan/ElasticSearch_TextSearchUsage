@@ -28,7 +28,7 @@ namespace ElasticSearch_TextSearchUsage.Controllers
 );
 
             var people = new List<Person>();
-            for (int i = 130350; i <= 1000000; i++)
+            for (int i = 1; i <= 1000000; i++)
             {             
                 client.IndexDocument(new Person
                 {
